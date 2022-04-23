@@ -1,0 +1,63 @@
+<circuit Speed_sps="1000000" animate="0" noLinAcc="5" Speed_per="100" Simu_Step_nS="1000" reactStep="50" type="simulide_0.4">
+
+Unique  Id: Node-17: 
+Circuit Id: Node-17
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Node-17" circRot="-5.4861292803319049e+303" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" labelrot="0" y="-252" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" x="-396" itemtype="Node" id="Node-17"/>
+
+Unique  Id: Node-15: 
+Circuit Id: Node-15
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Node-15" circRot="nan" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" labelrot="0" y="-356" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" x="-352" itemtype="Node" id="Node-15"/>
+
+Unique  Id: AudioOut-4: 
+Circuit Id: AudioOut-4
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="AudioOut-4" circRot="7.7879834397612797e-308" Impedance="8" labely="-36" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" labelrot="0" y="-348" vflip="1" labelx="-20" boardPos="-1e+06,-1e+06" Buzzer="false" rotation="0" x="-316" itemtype="AudioOut" id="AudioOut-4"/>
+
+Unique  Id: Battery-3: 
+Circuit Id: Battery-3
+<item valLabelx="-9" valLabRot="0" valLabely="19" objectName="Battery-3" circRot="0" labely="-22" Show_id="false" Show_Volt="true" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" labelrot="0" y="-252" vflip="1" labelx="-18" boardPos="-1e+06,-1e+06" rotation="0" Volts="5" x="-412" itemtype="Battery" id="Battery-3"/>
+
+Unique  Id: SR04-2: 
+Circuit Id: SR04-2
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="SR04-2" circRot="1.9762625833649862e-323" labely="-48" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" labelrot="0" y="-424" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" x="-496" itemtype="SR04" id="SR04-2"/>
+
+Unique  Id: Arduino Nano-1: 
+Circuit Id: Arduino Nano-1
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Arduino Nano-1" circRot="2.9275626645338227e-316" labely="155" Logic_Symbol="false" Show_id="true" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" labelrot="0" Program="" Auto_Load="false" y="-328" vflip="1" labelx="-10" boardPos="-1e+06,-1e+06" rotation="0" x="-548" Init_gdb="false" varList="" itemtype="Arduino" Name="arduinoNano" id="Arduino Nano-1" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" Mhz="16"/>
+
+Unique  Id: Connector-5: 
+Circuit Id: Connector-5
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-5" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Arduino Nano-1-PB4" labelrot="0" endpinid="SR04-2-trigpin" y="-200" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-540,-200,-596,-200,-596,-368,-496,-368,-496,-376" x="-540" enodeid="enode-5" itemtype="Connector" id="Connector-5"/>
+
+Unique  Id: Connector-6: 
+Circuit Id: Connector-6
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-6" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="SR04-2-outpin" labelrot="0" endpinid="Arduino Nano-1-PB3" y="-376" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-488,-376,-488,-360,-584,-360,-584,-208,-540,-208" x="-488" enodeid="enode-6" itemtype="Connector" id="Connector-6"/>
+
+Unique  Id: Connector-11: 
+Circuit Id: Connector-11
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-11" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Arduino Nano-1-Vin" labelrot="0" endpinid="Battery-3-Pin0" y="-312" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-492,-312,-428,-312,-428,-252" x="-492" enodeid="enode-11" itemtype="Connector" id="Connector-11"/>
+
+Unique  Id: Connector-12: 
+Circuit Id: Connector-12
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-12" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Arduino Nano-1-GND1" labelrot="0" endpinid="Node-17-0" y="-304" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-492,-304,-436,-304,-436,-196,-396,-196,-396,-252" x="-492" enodeid="enode-19" itemtype="Connector" id="Connector-12"/>
+
+Unique  Id: Connector-13: 
+Circuit Id: Connector-13
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-13" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Arduino Nano-1-PB0" labelrot="0" endpinid="Node-15-0" y="-232" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-540,-232,-568,-232,-568,-356,-352,-356" x="-540" enodeid="enode-14" itemtype="Connector" id="Connector-13"/>
+
+Unique  Id: Connector-14: 
+Circuit Id: Connector-14
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-14" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Arduino Nano-1-V5V" labelrot="0" endpinid="Node-15-1" y="-288" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-492,-288,-444,-288,-444,-100,-296,-100,-296,-388,-352,-388,-352,-356" x="-492" enodeid="enode-14" itemtype="Connector" id="Connector-14"/>
+
+Unique  Id: Connector-16: 
+Circuit Id: Connector-16
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-16" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Node-15-2" labelrot="0" endpinid="AudioOut-4-lPin" y="-356" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-352,-356,-332,-356" x="-352" enodeid="enode-14" itemtype="Connector" id="Connector-16"/>
+
+Unique  Id: Connector-18: 
+Circuit Id: Connector-18
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-18" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Node-17-2" labelrot="0" endpinid="Battery-3-Pin1" y="-252" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-396,-252,-396,-252" x="-396" enodeid="enode-19" itemtype="Connector" id="Connector-18"/>
+
+Unique  Id: Connector-19: 
+Circuit Id: Connector-19
+<item valLabelx="0" valLabRot="0" valLabely="0" objectName="Connector-19" circRot="0" labely="-24" Show_id="false" circPos="0,0" boardRot="-1000000" hflip="1" mainComp="false" startpinid="Node-17-1" labelrot="0" endpinid="AudioOut-4-rPin" y="-252" vflip="1" labelx="-16" boardPos="-1e+06,-1e+06" rotation="0" pointList="-396,-252,-356,-252,-356,-348,-332,-348" x="-396" enodeid="enode-19" itemtype="Connector" id="Connector-19"/>
+ 
+</circuit>
