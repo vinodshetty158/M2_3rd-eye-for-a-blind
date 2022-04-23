@@ -1,0 +1,203 @@
+
+1. INTRODUCTION:
+1.1 Introduction to Project work:
+With the improvement of the living standards of the people, we have become so materialistic that we have forgotten how the physically disabled people live a tough life. They undergo rigorous, apathetic and indifferent behaviour towards them for being physically disabled. They become dependent on other people in a way for their day to day routine chores. Blind and impaired persons always depend on other people for their locomotion. Eyes are prime sense of organ in perceiving the outside environment; dysfunction of such prime sense organ severely affects the knowledge perceiving capability of the outside environment. Therefore, going around to places in such environment is a very big challenge because the blind people cannot depend on their own eyes and thus face many difficulties.
+                  According to WHO or the World Health Organization, 39 million people are estimated as blinds worldwide. They are suffering a lot of hardship in their daily life. The physically disabled ones have been using the traditional way that is the white cane for many years which although being effective, still has a lot of disadvantages and limitations. Another way is, having a pet animal such as a dog, but it is really expensive.
+                 Thus third eye for blind is an innovation which helps the visually impaired people to move around and go from one place to another with speed and confidence by knowing the nearby obstacles using the help of the wearable band which produces the ultrasonic waves which notify them with buzz sound or vibrations.
+1.2 Problem Identification:
+The third eye for blind project develops a cheap, affordable and more efficient way to help the blind people to navigate with greater comfort, speed and confidence. This is the wearable technology for the blinds which helps resolve all the problems of the existing technologies. Nowadays there are so many technologies, things and smart devices for the visually impaired people for the navigation, but most of them have certain problems for the blind people and the major drawbacks are that those things need a lot of training and efforts to 
+
+
+use. One of the main peculiarity of this innovation is, it is affordable for everyone, the total cost being less than $25 or ~1500 INR.  It allows the user those who are visually impaired to walk freely by detecting the obstacles. They only need to wear this device as a band or cloth on their body.
+
+1.3 Motivation:
+The Third Eye for the Blind is to design a product which is very much useful to those people who are visually impaired and those who often have to rely on others. This is the first wearable technology for blinds which resolves all the problems of existing technologies. Now a days there are so many instruments and smart devices for visually impaired peoples for navigation but most of them have certain problems for carrying and the major drawbacks is those need a lot of training to use. The one of the main peculiarity of this innovation is, it is affordable for everyone, the total cost being less than $25 (~1500INR). There are no such devices available in the market that can be worn like a cloth and having such a low cost and simplicity. When used on a large scale, with improvements in the prototype, it will drastically benefit the community.
+2. Objectives of the proposed project work:
+•	To design a product, this is very much useful to those people who are visually impaired and those who often have to rely on others.
+•	To help the visually impaired people to move around and go from one place to another with speed and confidence by knowing the nearby obstacles using the help of the wearable band which produces the ultrasonic waves which notify them with buzz sound or vibrations.
+•	To detect the static or the constant obstacles on the ground, uneven surfaces, holes and steps via simple tactile-force feedback.
+•	To reduce the cost and make affordable to everyone.
+•	To conduct experimentation on arduino nano and ultrasonic sensor.
+•	To develop wearable technology for blinds.
+
+3.Literature survey:
+                                                                           Over the last few years or we can say over the last decades, research has been conducted for new devices and technologies to design a good and reliable and efficient system for blind or visually impaired people to detect the obstacles and warn or alert them at danger places or the obstacles. There are some systems which has some limitations and clampdown. Shoval et al. in [2] developed a Navbelt, an obstacle avoidance wearable portable computer which is only for indoor navigation. Navbelt was equipped with two modes, in the first one the system information was translated to audio in different sounds. One sound for free for travel direction and other for blocked, it was difficult for the person to differentiate the sounds. Other problem was the system would not know the user momentary position. D. Yuan et al. in [3] have discussed about the virtual white cane sensing device based on active triangulation that can measure distances at a rate of 15 measurements/second. A blind person can use this device for sensing the environment, pointing it as if it was a flash light. Beside measuring distances, this device can detect surface discontinuities, such as the foot of a wall, a step, or a drop-off. This is obtained by analysing the range data collected as the user swings the device around, tracking planar patches and finding discontinuities. Benjamin et al. in [4] introduce a laser cane with three photo diodes and three laser diodes function as receiver making an optical triangulation. The laser cane generally detects the obstacle in three specified directions.
+                                                               One is 45º to the ground for overhanging obstacles, the second one is parallel to the ground and third one is for sharp deepness. The laser cane has no data or technology or we can say system for determining the location and the position of the obstacle, rather it is just like a hit and trial method. J. Na proposed an interactive guide system for indoor positioning of this, which can’t detect the obstacles and hurdles. The system is not suitable for the outdoor activities. Sabarish. S in [5] have described the development of a navigation aid in order to assist blind and visually impaired people to navigate easily, safely and to detect any obstacles. The system is based on a microcontroller with synthetic speech output. In addition to this, the device consists of two vibrators, two ultrasonic sensors which is mounted on the user’s shoulders or any other body part and another one integrated into the cane. M.A Ungar S [6] . Has proposed methods for the visually impaired people for the urban cities. But they didn’t considered about the people who cannot afford costly equipment and devices. This limitation is overcome by the device third eye for the blind. Ms. Pooja Sharma [7] has discussed that the obstacles can be detected, but it has many limitations on the angles and the distance. On contrary, this project will have a wide angle for the detection where the sensors range will be wide. In today’s world of innovations, there are many innovations for the visually impaired people like the white cane with the cane with a red tip for helping the movements of the blind people. 
+                                                          There are many different types of canes used in today’s world with growing technologies such as the white cane, the smart cane [8], and the laser cane [9]. The cost of the trained dogs is also very high and is not affordable option [10] . A survey found [11] that the remote guidance system is very difficult to carry and thus the wearable band will be more optimized version. Likewise Guide Cane, this invention also has a control button on the handle, and the button has four different directions. This invention of the Third eye for blind has the same shortcomings or limitations as the Guide Cane where there will be a difficulty to save space for the cane or to place the smart cane like the other. Other than that, cost is also a problem in this project as it uses ultrasonic sensors and many servo motors. If the cost is high, users may not be able to afford for it\ because the average income of the visuallyimpaired people is usually less. Smart Cane has been designed by students from Central Michigan University where this invention uses Radio Frequency Identification (RFID). RFID is used to detect objects or obstacles in front of the user and detects the RFID tag that has been placed in several locations to navigate the users. This invention is just like a normal stick but is provided with a bag, which the user to wear. The bag provides electrical power to the invention and informs the user through speakers inside the bag. For users who cannot hear, there are special gloves that will vibrate at every finger, in which different vibrations in each finger have different meanings. However, this invention has several shortcomings and is only suitable for small areas. This is because it only detects the area with RFID tag otherwise this invention only works as a regular blind cane. 
+
+
+
+
+
+4. Materials and Methodology:
+Components:
+1.	Arduino Nano
+2.	Ultrasonic Sensor
+3.	Buzzer
+4.	Battery
+5.	Jumper Wires
+6.	Soldiering Kit
+7.	Hand gloves
+
+Component Description:
+Arduino Nano:
+ 
+Fig1:Arduino nano
+Arduino Nano Pinout:
+Arduino nano pin configuration is shown below and each pin functionality is discussed below.
+ 
+Fig2:Arduino nano pin diagram
+Power Pin (Vin, 3.3V, 5V, GND): These pins are power pins
+	Vin is the input voltage of the board, and it is used when an external power source is used from 7V to 12V.
+	5V is the regulated power supply voltage of the nano board and it is used to give the supply to the board as well as components.
+	3.3V is the minimum voltage which is generated from the voltage regulator on the board.
+	GND is the ground pin of the board
+
+RST Pin( Reset): This pin is used to reset the microcontroller
+Analog Pins (A0-A7): These pins are used to calculate the analog voltage of the board within the range of 0V to 5V
+I/O Pins (Digital Pins from D0 – D13): These pins are used as an i/p otherwise o/p pins. 0V & 5V
+Serial Pins (Tx, Rx): These pins are used to transmit & receive TTL serial data.
+External Interrupts (2, 3): These pins are used to activate an interrupt.
+PWM (3, 5, 6, 9, and 11): These pins are used to provide 8-bit of PWM output.
+
+
+
+Ultrasonic sensor:
+An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves. An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object's proximity.
+Ultrasonic sensors are used around the world, indoors and outdoors in the harshest conditions, for a variety of applications. Our ultrasonic sensors, made with piezoelectric crystals, use high frequency sound waves to resonate a desired frequency and convert electric energy into acoustic energy, and vice versa.
+ 
+Fig3: ultrasonic sensor 
+Buzzer:
+A buzzer or beeper is an audio signaling device, which may be mechanical, electromechanical, or piezoelectric (piezo for short). Typical uses of buzzers and beepers include alarm devices, timers, and confirmation of user input such as a mouse click or keystroke.
+
+When current is applied to the buzzer it causes the ceramic disk to contract or expand. Changing this then causes the surrounding disc to vibrate. That's the sound that you hear.
+ 
+Fig4: buzzer
+Battery:
+A battery is an electrochemical device that produces a voltage potential when placing metals of different affinities into an acid solution (electrolyte). A battery is a device consisting of one or more electrochemical cells with external connections for powering electrical devices such as flashlights, mobile phones, and electric cars. When a battery is supplying electric power, its positive terminal is the cathode and its negative terminal is the anode.
+                The vent cap is attached to the battery cover by a hinge connection which allows for play between the vent cap and the battery cover and which allows for rotation of the vent cap.
+  
+Fig5: battery, battery cap   
+Jumper wires:
+Connecting wires allows an electrical current to travel from one point on a circuit to another because electricity needs a medium through which it can move.  Connecting wires provide a medium to an electrical current so that they can travel from one point on a circuit to another.
+ 
+Fig6: jumper wires
+Soldering Kit:
+Solder is a fusible alloy used to join less fusible metals or wires, etc ... Solder wire is comprised of different alloys, or of pure tin. Each metal requires a certain type of soldering wire to create strong bonds, because the combinations of metals that comprise soldering wire melt at different temperatures. A soldering iron is a hand tool used in soldering. It supplies heat to melt solder so that it can flow into the joint between two work pieces. A soldering iron is composed of a heated metal tip and an insulated handle.
+  
+Fig7: solder wire and soldering iron 
+Hand gloves:
+A glove is a garment covering the hand. Gloves usually have separate sheaths or openings for each finger and the thumb.
+ 
+Fig8: hand glove
+
+
+
+
+
+
+
+
+
+Block diagram:
+ 
+
+Fig9; Block Diagram Representation
+The proposed system consists of arduino nano,ultrasonic sensor,buzzer each connected as shown in the above figure with the help of jumper wires. The circuit is then connected to battery.
+Program Language used: C language
+The C programming language is a computer programming language that was developed to do system programming for the operating system UNIX and is an imperative programming language. ... It is a procedural language, which means that people can write their programs as a series of step-by-step instructions.
+
+Software Used: Arduino.cc
+
+Algorithm:
+Step1: Start. 
+Step2: define trig and echo pin.
+Step3: declare buzzer pin.
+Step4: declare duration and distance.
+Step5: setup loop by giving trig pin as output, echo pin has Input and Buzzer as Output.
+Step6: start the void loop which contains trig pin high and delay 1000 microseconds trig pin low.
+Step7: initialize duration=pulse in with echo pin high.
+                         Distance=(duration/2)/29.1
+Step8: if distance<=100&&distance>=70
+Print distance
+ON the buzzer with a delay true 500 to 5000
+Else if distance<=80&& distance>=50
+print object detected
+print distance
+ON the buzzer with a delay time 450
+Else if distance<=50&& distance>=30
+print  object detected
+print distance
+ON the buzzer with a delay time 250
+else if distance<=2&& distance>=10
+print object detected
+print distance
+ON the buzzer with a delay time 150
+else if distance<=5&& distance>=1
+print object detected
+print distance
+ON the buzzer with time delay 10
+Else
+print object detected
+print distance
+ON the buzzer
+ In the end after all the connections are done to the Arduino board, upload the code to each arduino board and power the 4 other modules using a power bank. The transmitter emits the US waves and if obstacles are present in the path, the US waves hits the obstacles and gets reflected back, the reflected wave is received by the receiver. The US sensor is a combination of one transmitter and receiver.
+ The sensor detects and the further procedure of the buzz sound to the user is carried out. Thus, this way Third Eye for Blind will be designed for the visually impaired people and will make it very easy and convenient as it will be a wearable device and thus will help the user in travelling and detecting the obstacles while walking very easily.
+ 
+Fig10:3rd eye for blind
+5.Results & Analysis:
+The presented system is designed and configured for the use of the blind and visually disabled people. This device is able to handle several states that the visually impaired people face. This device responds to the user in all the circumstances which is faced by the blind people with the help of the use of the Ultrasonic sensors and the Arduino Board.
+
+Case 1: When the obstacle or the object is in the left it will tell the user that: The obstacle is in left
+ Case 2: When the obstacle is in right it will say: The obstacle in right.
+ Case 3: When the obstacle is in front, the device will say: the obstacle is in front. Similarly for all the directions like left, right, back etc. it will notify the user wearing it.
+
+
+
+
+ 6.Advantages and limitations:
+6.1 Advantages:.
+	while making use of ultrasonic waves to detect nearby obstacles and to notify the user through vibration.
+	This is the first wearable technology for blinds which resolves all the problems of existing technologies.
+	The one of the main peculiarity of this innovation is, it is affordable for everyone, the total cost being less than $25 (~1500INR).
+	There are no such devices available in the market that can be worn like a cloth and having such a low cost and simplicity.
+	When used on a large scale, with improvements in the prototype, it will drastically benefit the community.
+	Third eye for blinds is an innovation to help blind people to navigate with greater comfort, speed and confidence.
+
+6.2 Limitations:
+	Not designed for underwater use: ultrasonic sensors get spoil when use underwater, this means that the user is not permitted to use this device when it is raining.
+	Sensing accuracy is affected by changes in temperature of 5-10 degrees or more: under-temperature or higher temperature affect the system operation. 
+	Most ultrasonic sensors have a working range of -25° C to +70° C.
+	Have a limited detection range: ultrasonic sensor have a maximum range of 10 meters.
+
+
+
+
+7.Conclusion :
+
+Thus, this project proposed the design and architecture of a new concept of Arduino based Virtual Eye for the blind people. A simple, cheap, efficient, easy to carry, configurable, easy to handle electronic guidance system with many more amazing properties and advantages is proposed to provide constructive assistant and support for the blind and visually impaired persons. The system will be efficient and unique in its capability in specifying the source and distance of the objects that may encounter the blind. It is able to scan and detect the obstacles in the areas like left, right, and in front of the blind person regardless of its height or depth.
+
+With the proposed architecture, if constructed with at most accuracy, the blind will be able to move from one place to another without others help.
+The project as a whole was successful in developing a more durable navigation technique apart from the existing ones. This was just a prototype of the original idea that had to be presented here. The project, if used on a wider scale and distributed to blind people, really has the ability to make an impact to the community.
+	
+
+8.Reference :
+1).National Journal of Multidisciplinary Research and Development ISSN: 2455-9040 Impact   Factor: RJIF 5.22 www.nationaljournals.com Volume 3; Issue 1; January 2018; Page No. 752-756
+2.) Shraga Shovel, Iwan Ulrich, Johann Borenstien. Nav Belt and the Guide Cane, IEEE Transactions on Robotics & Automation. 2003; 10(1):9-20.
+ 3.) Yuan D, Manduchi R. Dynamic Environment Exploration Using a Virtual White Cane, Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR), University of California, Santa Cruz, 2005, 1-7.
+ 4.) Benjamin JM, Ali NA, Schepis AF. A laser cane for the blind”, Proceedings of San Diego Medical Symposium, 1973, 443-450. 
+5.) Sabarish S. Navigation Tool for Visually Challenged using Microcontroller, International Journal of Engineering and Advanced Technology (IJEAT), 2013; 2(4):139-143. 
+6.) Espinosa MA, Ungar S, Ochaíta E. Blades comparing methods for Introducing Blind and Visually Impaired People to unfamiliar urban environments., Journal of Environmental psychology. 1998; 18:277-287.
+ 7.) Pooja Sharma, Shimi SL, Chatterji S. A Review on Obstacle Detection and Vision, International Journal of Science and Research Technology. 2015; 4(1):1-11. 
+8.) Tahat AA. A wireless ranging system for the blind longcane utilizing a smart-phone, in Proceedings of the 10th International Conference on Telecommunications. (ConTEL '09), IEEE, Zagreb, Croatia, June. View at Scopus. 2009, 111-117.
+ 9.) Bolgiano D, Meeks Jr E. A laser cane for the blind, IEEE Journal of Quantum Electronics. View at Google Scholar. 1967; 3(6):268.
+ 10.) Amjed Al-Fahoum S, Heba Al-Hmoud B, Ausaila AlFraihat A. A Smart Infrared Microcontroller-Based Blind Guidance System”, Hindawi Transactions on Active and Passive Electronic Components. 2013; 3(2):1-7. 
+11.) Przemyslaw Baranski, Maciej Polanczyk, Pawel Strumillo. A Remote Guidanc System for the Blind, IEEEd. Transactions on Remote Guidance, 2010, pp. 386- 390
+      12).https://vishalnagarcool.blogspot.com/2020/02/third-eye-for-blind-using-arduino-           nano.html?m=1
+13).https://hyclassproject.com/design-and-construction-of-third-eye-for-the-blind-using-ultrasonic-sensor.html
+
+
+
+
+
+
