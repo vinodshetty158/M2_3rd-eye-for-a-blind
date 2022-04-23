@@ -1,0 +1,40 @@
+Components required:
+1.	Arduino Nano
+2.	Ultrasonic Sensor
+3.	Buzzer
+4.	Battery
+5.	Jumper Wires
+6.	Soldiering Kit
+7.	Hand gloves
+
+Component Description:
+Arduino Nano:
+Fig1:Arduino nano
+Arduino Nano Pinout:
+
+Power Pin (Vin, 3.3V, 5V, GND): These pins are power pins
+	Vin is the input voltage of the board, and it is used when an external power source is used from 7V to 12V.
+	5V is the regulated power supply voltage of the nano board and it is used to give the supply to the board as well as components.
+	3.3V is the minimum voltage which is generated from the voltage regulator on the board.
+	GND is the ground pin of the board
+
+RST Pin( Reset): This pin is used to reset the microcontroller
+Analog Pins (A0-A7): These pins are used to calculate the analog voltage of the board within the range of 0V to 5V
+I/O Pins (Digital Pins from D0 – D13): These pins are used as an i/p otherwise o/p pins. 0V & 5V
+Serial Pins (Tx, Rx): These pins are used to transmit & receive TTL serial data.
+External Interrupts (2, 3): These pins are used to activate an interrupt.
+PWM (3, 5, 6, 9, and 11): These pins are used to provide 8-bit of PWM output.
+
+Ultrasonic sensor:
+An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves. An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object's proximity.
+Ultrasonic sensors are used around the world, indoors and outdoors in the harshest conditions, for a variety of applications. Our ultrasonic sensors, made with piezoelectric crystals, use high frequency sound waves to resonate a desired frequency and convert electric energy into acoustic energy, and vice versa.
+Buzzer:
+A buzzer or beeper is an audio signaling device, which may be mechanical, electromechanical, or piezoelectric (piezo for short). Typical uses of buzzers and beepers include alarm devices, timers, and confirmation of user input such as a mouse click or keystroke.
+
+When current is applied to the buzzer it causes the ceramic disk to contract or expand. Changing this then causes the surrounding disc to vibrate. That's the sound that you hear.
+Battery:
+A battery is an electrochemical device that produces a voltage potential when placing metals of different affinities into an acid solution (electrolyte). A battery is a device consisting of one or more electrochemical cells with external connections for powering electrical devices such as flashlights, mobile phones, and electric cars. When a battery is supplying electric power, its positive terminal is the cathode and its negative terminal is the anode.
+                The vent cap is attached to the battery cover by a hinge connection which allows for play between the vent cap and the battery cover and which allows for rotation of the vent cap.
+Jumper wires:
+Connecting wires allows an electrical current to travel from one point on a circuit to another because electricity needs a medium through which it can move.  Connecting wires provide a medium to an electrical current so that they can travel from one point on a circuit to another.
+
